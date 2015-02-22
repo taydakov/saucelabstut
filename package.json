@@ -1,0 +1,45 @@
+{
+  "name": "saucelabstut",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/taydakov/saucelabstut",
+  "author": {
+    "name": "taydakov",
+    "email": "lev.taydakov@gmail.com",
+    "url": "taydakov.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taydakov/saucelabstut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taydakov/saucelabstut/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/taydakov/saucelabstut/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/saucelabstut",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-env": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-simple-mocha": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-watch": "latest",
+    "wd": "latest",
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "lodash": "~2.4.1",
+    "colors": "latest",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
